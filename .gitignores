@@ -1,0 +1,12 @@
+# Ignore all Java libraries/dependencies
+includes/*.jar
+
+# Ignore large spatial data files
+includes/*.dbf
+includes/*.shp
+includes/*.shx
+includes/*.fix
+
+# Ignore IDE-specific metadata
+.project
+.settings/
