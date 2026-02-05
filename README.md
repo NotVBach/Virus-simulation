@@ -13,4 +13,4 @@
 
 ## TODO 
 * Simulate difference scenarios with death rates from 1% to 100%
-
+* Simulate difference scenarios with mutation rates increase from 1% to 100%, with the vacinated rates of 1% of population (the 1% population that are tested and keep lockdown by the gov)
