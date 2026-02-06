@@ -14,3 +14,24 @@
 ## TODO 
 * Simulate difference scenarios with death rates from 1% to 100%
 * Simulate difference scenarios with mutation rates increase from 1% to 100%, with the vacinated rates of 1% of population (the 1% population that are tested and keep lockdown by the gov)
+
+
+### Binh Binh commit
+- Base scenario
+- Lockdown scenario
+- Parameters
+| Parameters | current Value | Interval (Min - Max) |
+| :--- | :--- | :--- |
+| `nb_people` | 3000 | |
+| `nb_infected_init` | 10 | |
+| `proba_infection` | 0.33 | |
+| `infection_distance` | 5.0 | |
+| `infectious_period` | 10 | |
+| `death_rate` | 0.1 | |
+| `daily_testing_rate` | 0.3 | |
+| `hospital_capacity` | 300 | |
+| `vaccine_rollout_day` | 5 | |
+| `vaccine_daily_limit` | 50 | |
+| `reinfection_chance` | 0.01 | |
+| `mutation_chance` | 0.01 | |
+| `district_lockdown_duration` | 14 | |
