@@ -20,6 +20,7 @@
 - Base scenario
 - Lockdown scenario
 - Parameters
+
 | Parameters | current Value | Interval (Min - Max) |
 | :--- | :--- | :--- |
 | `nb_people` | 3000 | |
@@ -35,5 +36,3 @@
 | `reinfection_chance` | 0.01 | |
 | `mutation_chance` | 0.01 | 0.01 - 0.3|
 | `district_lockdown_duration` | 14 | |
-
-- Some parameters that should batch
