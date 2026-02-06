@@ -27,11 +27,13 @@
 | `proba_infection` | 0.33 | |
 | `infection_distance` | 5.0 | |
 | `infectious_period` | 10 | |
-| `death_rate` | 0.1 | |
-| `daily_testing_rate` | 0.3 | |
-| `hospital_capacity` | 300 | |
-| `vaccine_rollout_day` | 5 | |
-| `vaccine_daily_limit` | 50 | |
+| `death_rate` | 0.1 | 0.1 - 0.5 |
+| `daily_testing_rate` | 0.1 | 0.01 - 0.5|
+| `hospital_capacity` | 300 | 50 - 500|
+| `vaccine_rollout_day` | 5 | 3 - 10 |
+| `vaccine_daily_limit` | 50 | 10 - 100|
 | `reinfection_chance` | 0.01 | |
-| `mutation_chance` | 0.01 | |
+| `mutation_chance` | 0.01 | 0.01 - 0.3|
 | `district_lockdown_duration` | 14 | |
+
+- Some parameters that should batch
