@@ -181,7 +181,7 @@ species road {
 experiment "Ascending Death Sweep" type: batch until: (nb_infected = 0 and time > 10#days) {
     
     // Starts at 0.1, ends at 1.0, increases by 0.1 (10%) each simulation
-    parameter "Fixed Death Rate" var: death_rate_fixed min: 0.1 max: 1.0 step: 0.1;
+    parameter "Fixed Death Rate" var: death_rate_fixed min: 0.05 max: 1.0 step: 0.1;
 
     // 'Exhaustive' ensures simulation 1 = 0.1, simulation 2 = 0.2, etc.
    
@@ -191,5 +191,7 @@ experiment "Ascending Death Sweep" type: batch until: (nb_infected = 0 and time 
                 data "Total Dead" value: {death_rate_fixed, nb_dead} style: line color: #red;
             }
         }
+        
+        
     }
 }
